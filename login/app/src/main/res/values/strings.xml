@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">SocialLogin</string>
     <string name="kakao_app_key">cc366236e2a0d90581dfce3c3d45fe39</string>
+    
+    <string name="naver_client_id">RaNqfJkzVEyuNle9Kw5i</string>
+    <string name="naver_client_secret">Tp1xexzs5R</string>
+    <string name="naver_client_name">Social Login</string>
 </resources>

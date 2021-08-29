@@ -16,11 +16,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <com.nhn.android.naverlogin.ui.view.OAuthLoginButton
         android:id="@+id/btn_naver_login"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Naver"
+        android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
