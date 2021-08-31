@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-android-extensions'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -55,4 +56,11 @@ dependencies {
     implementation "androidx.legacy:legacy-support-core-utils:$android_x_version"
     implementation "androidx.browser:browser:$android_x_version"
     implementation "androidx.legacy:legacy-support-v4:$android_x_version"
+
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:28.4.0')
+
+    // dependency for the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-core:15.0.2'
 }
