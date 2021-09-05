@@ -2,6 +2,7 @@ package com.example.sociallogin
 
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import com.google.firebase.analytics.FirebaseAnalytics
@@ -27,8 +28,8 @@ class MainActivity : AppCompatActivity() {
         buttons.add(btn_2)
         buttons.add(btn_3)
         btn_1.setOnClickListener { addDataToFirebaseAnalytics(btn_1.toString()) }
-        btn_2.setOnClickListener { addDataToFirebaseAnalytics(btn_1.toString()) }
-        btn_3.setOnClickListener { addDataToFirebaseAnalytics(btn_1.toString()) }
+        btn_2.setOnClickListener { addDataToFirebaseAnalytics(btn_2.toString()) }
+        btn_3.setOnClickListener { addDataToFirebaseAnalytics(btn_3.toString()) }
     }
 
     private fun setFirebaseAnalytics() {
@@ -44,5 +45,6 @@ class MainActivity : AppCompatActivity() {
         bundle.putString(FirebaseAnalytics.Param.SCREEN_CLASS, "MainActivity")
 
         this.firebaseAnalytics?.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle)
+        Toast.makeText(this, " $bundle", Toast.LENGTH_SHORT).show()
     }
 }
