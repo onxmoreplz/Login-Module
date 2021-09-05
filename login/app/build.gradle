@@ -62,5 +62,6 @@ dependencies {
 
     // dependency for the Firebase SDK for Google Analytics
     implementation 'com.google.firebase:firebase-analytics-ktx'
-    implementation 'com.google.firebase:firebase-core:15.0.2'
+    implementation 'com.google.firebase:firebase-core:19.0.1'
+    implementation 'com.google.android.gms:play-services-analytics:17.0.1'
 }

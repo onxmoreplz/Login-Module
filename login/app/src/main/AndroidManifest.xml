@@ -3,6 +3,7 @@
     package="com.example.sociallogin">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 나중에 Google play에 업로드할때 주의 -->
 
     <application
