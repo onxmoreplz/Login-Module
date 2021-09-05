@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "983728153248",
-    "project_id": "sociallogin-f70a2",
-    "storage_bucket": "sociallogin-f70a2.appspot.com"
+    "project_number": "1079446809670",
+    "project_id": "sociallogin-fc6d3",
+    "storage_bucket": "sociallogin-fc6d3.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:983728153248:android:9fbb41b726c4820eb01fc5",
+        "mobilesdk_app_id": "1:1079446809670:android:f70138cb6f397e3edaae47",
         "android_client_info": {
           "package_name": "com.example.sociallogin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "983728153248-1mqki0aok993q29g7d5e6t8o163jf0k5.apps.googleusercontent.com",
+          "client_id": "1079446809670-qjullpk73lps9p80ec2o6lh477ma1l60.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCl_LrveahCf8IcvZIRx6N16UC1KQjufg0"
+          "current_key": "AIzaSyAw_kKUpbwCWU9Ve4qyXLCP2vIlsTrG6zE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "983728153248-1mqki0aok993q29g7d5e6t8o163jf0k5.apps.googleusercontent.com",
+              "client_id": "1079446809670-qjullpk73lps9p80ec2o6lh477ma1l60.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
