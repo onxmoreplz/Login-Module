@@ -18,7 +18,7 @@ android:
 # Travis Ci를 어느 브랜치가 푸시될 때 수행할지 지정
 branches: 
   only:
-    - master
+    - main
 
 before_install:
 - chmod +x gradlew
@@ -33,7 +33,7 @@ deploy:
   on:
     branch:
       - dev
-      - master
+      - main
 
 # CI 실행 완료 시 메일로 알람
 notifications:
